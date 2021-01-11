@@ -1,3 +1,5 @@
+package Utility;
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 
@@ -32,8 +34,9 @@ Print the itemized bill.
         double overageCost = overage * overageCharge;
         return overageCost;
     }
-      //hi
-      // Calculate the tax on subtotal
+
+    //hi
+    // Calculate the tax on subtotal
     public static double calculateTax(double planFee, double overageCost) {
         double tax = (planFee + overageCost) * 0.15;
         return tax;
