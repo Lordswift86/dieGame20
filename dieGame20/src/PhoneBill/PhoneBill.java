@@ -28,6 +28,4 @@ Print the itemized bill..
         double grossTotal = billCalculator.calculateTotal(phoneBill.baseCost, overageCost, tax);
         printReceipt.displayBill(phoneBill.baseCost, overageCost, tax, grossTotal, name);
     }
-
-
 }
