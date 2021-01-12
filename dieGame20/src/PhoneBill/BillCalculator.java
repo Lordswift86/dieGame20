@@ -7,7 +7,7 @@ public class BillCalculator {
     /*
     So, a phone bill should have an ID, a base cost, a number of allotted minutes and a number of minutes used. And
     then, it should also be able to calculate the overage, calculate the tax, and calculate the total.
-    And then, it should also be able to print an itemized bill.
+    And then, it should also be able to print an itemized bill..
      */
     // generate I.D
     public int idGenerator() {

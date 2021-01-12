@@ -11,7 +11,7 @@ Allow the user to input the plans fee and the number of overage minutes.
 Charge the user 30 Naira for every minute they were over their plan,
 and 15% tax on the subtotal.
 Create separated methods to calculate the tax, overage fee, and final total.
-Print the itemized bill.
+Print the itemized bill..
          */
         PrintReceipt printReceipt = new PrintReceipt();
         BillCalculator billCalculator = new BillCalculator();
